@@ -1,11 +1,11 @@
-package com.github.renatocardosoalves.cleanarchitectureexample
+package com.github.renatocardosoalves.cleanarchitectureexample.infrastructure
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class CleanArchitectureExampleApplication
+class Application
 
 fun main(args: Array<String>) {
-    runApplication<CleanArchitectureExampleApplication>(*args)
+    runApplication<Application>(*args)
 }
