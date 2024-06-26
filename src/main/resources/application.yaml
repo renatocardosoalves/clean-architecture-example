@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: clean-architecture-example
+  datasource:
+    url: jdbc:postgresql://localhost:5432/clean_architecture
+    password: postgres
+    username: postgres
